@@ -16,7 +16,7 @@ const config: webpack.Configuration = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'public/index.html',
-            // favicon: 'public/favicon.ico'
+            favicon: 'public/favicon.ico'
         }),
         new webpack.HotModuleReplacementPlugin(),
         new ESLintWebpackPlugin({
@@ -42,7 +42,6 @@ const config: webpack.Configuration = {
     resolve: {
         extensions: ['*', '.js', '.ts', '.tsx'],
     },
-    // devtool: 'cheap-module-source-map',
     devtool: 'eval-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public'),
