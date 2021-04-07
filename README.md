@@ -1,2 +1,3 @@
-# react-env
-React environment with Typescript, Redux, Webpack, Babel &amp; other useful stuff
+Modern **React** environment with **Typescript**, **Webpack**, **Babel** & other useful stuff
+___
+for packages info visit [**packages docs**](PACKAGES.md)

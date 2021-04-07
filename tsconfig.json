@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    // set the level of type checking to very high
+    "strict": true,
+    // enable compatibility with Babel
+    "esModuleInterop": true,
+    // skip type checking of all the type declaration files (*.d.ts)
+    "skipLibCheck": true,
+    // prevent issues related to the file casing and how the files are referenced in the code
+    "forceConsistentCasingInFileNames": true,
+    // allow JavaScript files to be compiled
+    "allowJs": true,
+    // allow default imports from modules with no default export in the type checking process
+    "allowSyntheticDefaultImports": true,
+    // "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
