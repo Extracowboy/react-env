@@ -1,10 +1,10 @@
-import webpack from "webpack";
-import path from "path";
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import ESLintWebpackPlugin from "eslint-webpack-plugin";
-import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
+const webpack = require("webpack");
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintWebpackPlugin = require("eslint-webpack-plugin");
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
-const config: webpack.Configuration = {
+module.exports = {
     mode: 'development',
     target: 'web',
     entry: './src/index.tsx',
@@ -54,5 +54,3 @@ const config: webpack.Configuration = {
         https: false
     }
 };
-
-export default config;
